@@ -1,39 +1,43 @@
 #!/usr/bin/python3
+"""Square module definition.
+This module defines a Square class
+"""
 
 class Square:
+    """Square implementation
+    """
     def __init__(self, size=0):
         self.size = size
 
-    def __eq__(self, other):
-        return self.area() == other.area()
-
-    def __nq__(self, other):
-        return self.area() != other.area()
+    def __lt__(self, other):
+        return self.__size < other.size
 
     def __le__(self, other):
-        return self.area() <= other.area()
+        return self.__size <= other.size
+
+    def __eq__(self, other):
+        return self.__size == other.size
+
+    def __ne__(self, other):
+        return self.__size != other.size
 
     def __gt__(self, other):
-        return self.area() > other.area()
+        return self.__size > other.size
 
     def __ge__(self, other):
-        return self.area() >= other.area()
-
-    def __lt__(self, other):
-        return self.size < other.size
-
-    def area(self):
-        return self._Square__size ** 2
+        return self.__size >= other.size
 
     @property
     def size(self):
-        return self._Square__size
+        return self.__size
 
     @size.setter
     def size(self, size):
-        if not isinstance(size, int):
-            raise TypeError("size must be an integer")
+        if type(size) != int:
+            raise TypeError('size must be an integer')
         elif size < 0:
-            raise ValueError("size must be >= 0")
-        else:
-            self._Square__size = size
+            raise ValueError('size must be >= 0')
+        self.__size = size
+
+    def area(self):
+        return (self.__size ** 2)

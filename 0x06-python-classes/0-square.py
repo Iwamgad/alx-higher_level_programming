@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
 """Square module definition.
-This module defines an empty `Square` class
+This module defines a`Square` class
 """
 class Square:
-    """An empty `Square` class
-    For now the class has neither `Atribures` nor `Methods`
+    """A ``Square`` class
+    The class is empty for now
     """
     pass

@@ -5,10 +5,13 @@ This module defines a`Square` class
 """
 
 class Square:
-    """defines a square by: (based on 1-square.py)"""
+    """A ``Square`` class
+    Attributes:
+        size (int): The size of the ``Square``.
+    """
     def __init__(self, size):
         """Initializes a new ``square`` object.
         Args:
             size (int): The size of the square.
         """
-        self.size = size
+        self._size = size

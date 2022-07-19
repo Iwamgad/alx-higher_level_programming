@@ -7,7 +7,7 @@ This module defines a Square class
 class Square:
     """A Square class
     Attributes:
-        size (int): The size of the square.
+        __size (int): The size of the square.
     """
     def __init__(self, size):
         """Initializes a new square object.

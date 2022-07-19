@@ -13,6 +13,5 @@ class Square:
         """Initializes a new square object
         Args:
             size (int): The size of the square.
-        Returns: None
         """
-        self.__size = size
+        self._Square__size = size

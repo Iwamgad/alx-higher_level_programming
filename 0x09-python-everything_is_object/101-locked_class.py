@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-My locked class module
-"""
+"""My locked class module"""
 
 class LockedClass:
     """a class LockedClass with no class or object attribute,

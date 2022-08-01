@@ -12,8 +12,6 @@ class Rectangle(BaseGeometry):
         Args:
             width (int): the width of the rectangle
             height (int): the height of the rectangle
-        Raises:
-            AttributeError: if attribute is null
         """
         self.integer_validator("width", width)
         self.width = width

@@ -23,6 +23,6 @@ class Square(Rectangle):
     def __str__(self):
         """Returns the print and str reprsentation"""
 
-        string = "[" + str(self.__class__.__name__) + "] "
+        string = "[" + str(super().__class__.__name__) + "] "
         string += str(self.__size) + "/" + str(self.__size)
         return string

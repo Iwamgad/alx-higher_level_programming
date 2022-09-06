@@ -17,3 +17,7 @@
 * Task 14 - a program that contains a script that computes the score average of all records in the table second_table of the database hbtn_0c_0 in your MySQL server.
 * Task 15 - a program that contains a script that lists the number of records with the same score in the table second_table of the database hbtn_0c_0 in your MySQL server.
 * Task 16 - a program that contains a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
+* Task 17 - a program that contains a script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server.
+* Task 18 - a program that contains a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
+* Task 19 - a program that contains a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending)
+* Task 20 - a program that contains a script that displays the max temperature of each state (ordered by State name).
